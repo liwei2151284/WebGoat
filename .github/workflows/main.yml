@@ -45,7 +45,6 @@ jobs:
           # The name of the branch on which Frogbot will perform the scan
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
 
-          JF_PROJECT: "testsample"
           JF_MIN_SEVERITY: "Critical"
 
           # [Optional, default: "."]
